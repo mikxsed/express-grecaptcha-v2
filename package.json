@@ -1,0 +1,21 @@
+{
+	"name": "express-google-recaptcha",
+	"description": "🤖 reCAPTCHA V2 API for Express",
+	"main": "lib/index.js",
+	"version": "1.0.0",
+	"author": "mikxsed",
+	"license": "MIT",
+	"repository": "https://github.com/mikxsed/express-google-recaptcha",
+	"bugs": "https://github.com/mikxsed/express-google-recaptcha/issues",
+	"keywords": [
+		"express",
+		"recaptcha",
+		"recaptcha-v2"
+	],
+	"devDependencies": {
+		"@types/express": "^4.17.17"
+	},
+	"dependencies": {
+		"phin": "^3.7.0"
+	}
+}

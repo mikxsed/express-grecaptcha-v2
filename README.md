@@ -1,18 +1,18 @@
-# express-google-recaptcha
+# express-grecaptcha-v2
 > _reCAPTCHA V2 API for Express_
 
-**express-google-recaptcha** allows you to easily implement reCAPTCHA validation and rendering into your Express application.
+**express-grecaptcha-v2** allows you to easily implement reCAPTCHA validation and rendering into your Express application.
 
 ## Usage
 ```shell
-$ yarn add express-google-recaptcha
+$ yarn add express-grecaptcha-v2
 ```
 
 > **app.js**
 ```js
 const express = require('express');
 const path = require('path');
-const recaptcha = require('express-google-recaptcha');
+const recaptcha = require('express-grecaptcha-v2');
 
 const app = express();
 
@@ -63,4 +63,4 @@ app.listen(3000, () => {
 ```
 
 ## License
-**express-google-recaptcha** is released under the **MIT License**.
+**express-grecaptcha-v2** is released under the **MIT License**.

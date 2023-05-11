@@ -1,12 +1,12 @@
 {
-	"name": "express-google-recaptcha",
+	"name": "express-grecaptcha-v2",
 	"description": "🤖 reCAPTCHA V2 API for Express",
 	"main": "lib/index.js",
 	"version": "1.0.0",
 	"author": "mikxsed",
 	"license": "MIT",
-	"repository": "https://github.com/mikxsed/express-google-recaptcha",
-	"bugs": "https://github.com/mikxsed/express-google-recaptcha/issues",
+	"repository": "https://github.com/mikxsed/express-grecaptcha-v2",
+	"bugs": "https://github.com/mikxsed/express-grecaptcha-v2/issues",
 	"keywords": [
 		"express",
 		"recaptcha",

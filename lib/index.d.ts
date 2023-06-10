@@ -1,4 +1,5 @@
-interface VerifyOptions {
+interface VerifyOptions
+{
 	/**
 	 * Response object name
 	 * @default g-recaptcha-response
@@ -11,7 +12,8 @@ interface VerifyOptions {
 	ip?: string;
 }
 
-interface RenderOptions {
+interface RenderOptions
+{
 	/** ReCaptcha class */
 	class?: string;
 	/** ReCaptcha tabindex */
@@ -28,7 +30,8 @@ interface RenderOptions {
 	errorCallback?: string;
 }
 
-interface ScriptOptions {
+interface ScriptOptions
+{
 	/** Method to call onload */
 	onload?: string;
 	/** Render method */
@@ -37,7 +40,8 @@ interface ScriptOptions {
 	language?: string;
 }
 
-interface Config {
+interface Config
+{
 	/**
 	 * Will not output HTML and verify responses if disabled
 	 * @default true
@@ -60,16 +64,20 @@ interface Config {
 	script?: ScriptOptions;
 }
 
-declare global {
-	namespace Express {
-		export interface Request {
+declare global
+{
+	namespace Express
+	{
+		export interface Request
+		{
 			recaptcha: {
 				/** Verify the ReCaptcha response */
 				verify: (options?: VerifyOptions) => boolean;
 			};
 		}
 
-		export interface Response {
+		export interface Response
+		{
 			recaptcha: {
 				/** Render the ReCaptcha box */
 				render: (options?: RenderOptions) => string;
